@@ -1,0 +1,87 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<nav id="navbar">
+  <header>Javascript Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li><br>
+    <li><a class="nav-link" href="#Hello_world">Hello world</a></li><br>
+    <li><a class="nav-link" href="#Variables">Variables</a></li><br>
+    <li><a class="nav-link" href="#Data_types">Data types</a></li><br>
+    <li><a class="nav-link" href="#Function_declarations">Function declarations</a></li><br>
+  </ul>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language.</p> 
+    <p>It can be connected to the objects of its environment to provide programmatic control over them.</p>
+  </section>
+  
+  <section class="main-section" id="Hello_world">
+    <header>Hello world</header>
+    <p>To get started write your first "Hello world" JavaScript code:</p>
+    <code>
+      function greetMe(yourName)<br>
+      {<br>
+      alert("Hello " + yourName);<br>
+      }<br>
+      greetMe("World");<br>
+    </code>
+  </section>
+  
+  <br>
+    
+  <section class="main-section" id="Variables">
+    <header>Variables</header>
+    <p>The names of variables follow the next rules:<p>
+    <ul>
+      <li>
+        Start with:
+        <ul>
+          <li>letter</li>
+          <li>underscore</li>
+          <li>dollar sign</li>
+        </ul>
+      </li>
+      <li>
+        Can contain letters and digits
+      </li>
+      <li>
+        Javascript is case sensitive
+    </ul>
+  </section>
+  
+  <section class="main-section" id="Data_types">
+    <header>Data types</header>
+    <p>There are seven data types:</p>
+    <ul>
+      <li>Boolean <code>true, false</code></li>
+      <li><code>null</code></li>
+      <li><code>undefined</code></li>
+      <li>Number <code>4, 6.12, 1.2e12</code></li>
+      <li>String <code>"This is a string"</code></li>
+      <li>Symbol: is immutable and unique</li>
+      <li><code>Object</code></li>
+    </ul>
+    <p>Objects are container which contain other variables. This variables can also be Objects</p>
+  </section>
+    
+  <section class="main-section" id="Function_declarations">
+    <header>Function declarations</header>
+    <p>The format of a function consist of the keyword <code>function</code> a lis of arguments enclosed by parenthesis and separated by comas and the code of the function enclosed by curly brackets<code>{}</code></p>
+    <p>The following function sums two numbers</p>
+    <code>function sum(a,b){return a + b};</code>
+    <p>Primitive parameters are by value which means that are if they are modified inside the function its value its not changed outside.</p>
+  </section>
+</main>
